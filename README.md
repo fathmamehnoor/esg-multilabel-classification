@@ -1,4 +1,4 @@
-# 🌱 ESG Multi-Label Classification with BERT
+# ESG Multi-Label Classification with BERT
 
 This project fine-tunes a BERT model to classify text from sustainability reports into ESG (Environmental, Social, Governance) categories. It uses PyTorch and Hugging Face Transformers and supports multi-label classification.
 
@@ -6,7 +6,7 @@ Achieved an **F1 Score of 0.9501** on validation data.
 
 ---
 
-## 🧠 Features
+## Features
 
 - Fine-tunes `bert-base-uncased` for multi-label ESG classification
 - Predicts relevant ESG categories from textual input
@@ -16,7 +16,7 @@ Achieved an **F1 Score of 0.9501** on validation data.
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 ├── predict.py              # Load trained model and run predictions
@@ -34,8 +34,6 @@ Install dependencies using pip:
 ```bash
 pip install -r requirements.txt
 ```
-
-
 
 ## 🔍 Inference
 
